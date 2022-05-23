@@ -9,7 +9,7 @@ require('dotenv').config()
 // for server connection step2
 const app = express();
 // for server connection step3
-const port = process.env.port || 5000;
+const port = process.env.PORT || 5000;
 
 // middleWare
 app.use(cors());
